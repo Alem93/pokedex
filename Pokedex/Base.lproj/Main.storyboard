@@ -180,6 +180,9 @@
                                             <constraint firstAttribute="height" constant="22" id="meD-g2-kzU"/>
                                         </constraints>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backButtonPressed:" destination="wQL-GA-eNE" eventType="touchUpInside" id="mtr-3q-drJ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.23529411764705882" blue="0.37254901960784315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
